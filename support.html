@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>支持 Codey Pet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+            max-width: 800px; margin: 0 auto; padding: 20px;
+            background: #f5f5f5; color: #333;
+            line-height: 1.6;
+        }
+        .header { 
+            text-align: center; 
+            margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .gift-section { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .gift-btn { 
+            display: inline-block; 
+            background: #00adee;
+            color: white;
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 8px;
+            font-size: 16px; 
+            margin: 8px;
+            transition: all 0.3s;
+        }
+        .gift-btn:hover {
+            background: #0088cc;
+            transform: translateY(-2px);
+        }
+        .gift-btn.microsoft {
+            background: #0078d4;
+        }
+        .wishlist {
+            background: #fff9e6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .game-item {
+            margin: 10px 0;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 6px;
+        }
+        .qr-code {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .qr-code img {
+            width: 200px;
+            height: 200px;
+        }
+        a { color: #007ACC; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>支持 Codey Pet</h1>
+        <p>绕过支付验证，直接送我游戏或礼品卡</p>
+    </div>
+
+    <div class="gift-section">
+        <h2>为什么需要支持</h2>
+        <p>作为学生开发者，我无法使用部分支付方式（银行账户、身份证等）。</p>
+        <p>如果你喜欢 Codey Pet，可以直接通过 Steam 游戏、Steam 钱包码或微软礼品卡支持我。</p>
+
+        <div class="wishlist">
+            <h3>愿望清单</h3>
+            <div class="game-item">
+                <strong>ARK: Survival Evolved</strong>
+                <p>最想要的游戏。</p>
+            </div>
+            <div class="game-item">
+                <strong>Java Minecraft</strong>
+                <p>经典创造与探索体验。</p>
+            </div>
+            <div class="game-item">
+                <strong>ARK DLCs</strong>
+                <p>扩展包：Aberration, Extinction, Genesis 等。</p>
+            </div>
+            <div class="game-item">
+                <strong>Steam 钱包码</strong>
+                <p>小额也可以积少成多。</p>
+            </div>
+            <div class="game-item">
+                <strong>微软商店礼品卡</strong>
+                <p>可作为替代选择。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gift-section" style="text-align: center;">
+        <h2>如何赠送</h2>
+        <a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/" 
+           class="gift-btn" target="_blank">赠送 ARK 游戏</a>
+        <a href="https://www.minecraft.net/zh-hans" 
+           class="gift-btn" target="_blank">赠送 Minecraft</a>
+        <a href="https://store.steampowered.com/digitalgiftcards/?recipient=76561198775477448" 
+           class="gift-btn" target="_blank">Steam 钱包码</a>
+        <a href="https://www.microsoft.com/zh-cn/store/gift-cards" 
+           class="gift-btn microsoft" target="_blank">微软礼品卡</a>
+
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">
+            我的 SteamID64: <strong>76561198775477448</strong><br>
+            赠送后请联系：xueyuhang2013@proton.me
+        </p>
+
+        <div class="qr-code">
+            <p>扫码访问我的 Steam 个人资料：</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://steamcommunity.com/profiles/76561198775477448&size=200x200" alt="Steam QR Code">
+        </div>
+    </div>
+
+    <div class="gift-section">
+        <h2>为什么选择礼物支持</h2>
+        <ul>
+            <li>绕过支付验证，无需银行账户或身份证</li>
+            <li>直接赠送，无中间抽成</li>
+            <li>知道具体支持的内容</li>
+            <li>礼物即时到账</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px;">
+        <a href="index.html">← 返回主页面</a>
+    </div>
+</body>
+</html>
